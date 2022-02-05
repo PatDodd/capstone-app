@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly on snapshot test 1`] = `
+<div
+  className="Stats-wrapper-1"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+  >
+    Your All-Time Stats: 
+  </h6>
+  <div>
+    <div
+      className="Stats-skeleton-4"
+    >
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+    </div>
+    <div
+      className="Stats-skeleton-4"
+    >
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

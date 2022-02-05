@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly on snapshot test 1`] = `
+<form
+  className="UploadRun-form-1"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+  >
+    Upload Runs From "activities.csv":
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text UploadRun-button-2"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Upload Runs
+    </span>
+  </button>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+  >
+    Upload Routes from: "/activities/...":
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text UploadRoutes-button-65"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Upload Routes
+    </span>
+  </button>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+  >
+    Upload Elevation Data from: "/activities/...":
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text UploadElevations-button-66"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Upload Elevation Data
+    </span>
+  </button>
+</form>
+`;

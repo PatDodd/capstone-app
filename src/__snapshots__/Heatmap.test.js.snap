@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly on snapshot test 1`] = `
+<div
+  style={
+    Object {
+      "height": "89vh",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="Heatmap-skeleton-1"
+  >
+    <span
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+    <span
+      className="MuiSkeleton-root MuiSkeleton-text"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Loading...This may take a moment.
+    </p>
+    <span
+      className="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-wave"
+      style={
+        Object {
+          "height": 400,
+          "width": undefined,
+        }
+      }
+    />
+  </div>
+</div>
+`;

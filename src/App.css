@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
+
+body{
+  min-width: 315px;
+  float: left;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+a {
+  text-decoration: none;
+}
+
+.userInfo {
+  margin-left:20px;
+}
+
+.about {
+  /* margin-left: 10px; */
+  width: 300px;
+}
+.about h5 {
+  margin-left: 20px;
+}
+
+.bannister {
+  width: 225px;
+}
+
+.lineGraphs {
+  display: inline-block;
+  width: 100%;
+}
+
+.canvas{
+  display: block;
+  max-width: 100%;
+}
+
+.noData{
+  padding-left: 16px;
+  color: #dd2c00;
+}
+
+text {
+  font-family: 'Libre Franklin', 'sans-serif';
+  font-size: 14px;
+  color: 'grey';
+}
+
+.graphTitle{
+  max-width: 100%;
+  text-align: Left;
+  display: block;
+  margin-left: 14.5px;
+  font-family: 'Libre Franklin', 'sans-serif';
+  /* font-size: 18px; */
+  color: 'grey';
+}
+
+.y-axis-perc, .x-axis-perc {
+  font-family: 'Libre Franklin', 'sans-serif';
+  font-size: 14px;
+}
+
+.y-axis line{
+  color: grey;
+  opacity: 0.3;
+  border: none;
+}
+
+.x-axis line{
+  color: grey;
+  opacity: 0.3;
+  border: none;
+}
+
+.y-axis path {
+  stroke-width: 0;
+}
+
+.x-axis path {
+  stroke-width: 0;
+}
+
+.y-axis text{
+  color:#212121;
+ 
+}
+
+.x-axis text{
+  color: #212121;
+ 
+}
+
+div.tip {
+  position: absolute;
+  text-align: left;
+  padding: 2px;
+  background: grey;
+  color:white;
+  border:0px;
+  margin: 0;
+  border-radius: 8px;
   pointer-events: none;
+  font-size: 14px;
+  border-bottom: 5px solid grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+div.tip:after {
+  content: '';
+  position: absolute;
+  left:0;
+  right:0;
+  margin:0 auto;
+  width:0;
+  height:0;
+  border-top: 20px solid grey;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.tip p {
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+@media only screen and (min-width: 993px) {
+  .navbar{
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 720px) {
+  text {
+    font-family: 'Libre Franklin', 'sans-serif';
+    font-size: 14.5px;
   }
 }
+
+/* Responsive styles for tooltip of eff% chart */
+@media only screen and (max-width: 700px) {
+    div.tip:after {
+      content: '';
+      position: absolute;
+      left:0;
+      right:0;
+      margin:0 auto;
+      width:0;
+      height:0;
+      border-top: 0px solid grey;
+      border-left: 0px solid transparent;
+      border-right: 0px solid transparent;
+    }
+
+   
+  }  
+  @media only screen and (max-width: 480px){
+    .xAxis text {
+      display: none; 
+      
+    }
+  }
+
+
+
+
+
+
+
+
+
